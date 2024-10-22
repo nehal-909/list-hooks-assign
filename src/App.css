@@ -1,0 +1,138 @@
+/* todoapp ka css*/
+/* body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.app {
+  background-color: #191970;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  background-color: #7F00FF;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item span {
+  flex-grow: 1;
+}
+
+.todo-item input {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #7F00FF;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 2px;
+}
+
+button:hover {
+  background-color: #191970;
+}
+
+.input-area {
+  display: flex;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  flex-grow: 1;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.delete-all {
+  background-color: #fff;
+  color: tomato;
+  margin-top: 10px;
+  width: 100px;
+  margin-left: 140px;
+} */
+
+
+/* modal login ka css*/
+.dialog {
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 400px;
+  padding: 0;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30%;
+}
+
+button:hover {
+  background-color: darkorange;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+} 
+
